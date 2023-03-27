@@ -123,7 +123,7 @@ export const ContainerNikola = styled.main`
     .habilidades{
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: center;
 
         img{
             height: 55px;

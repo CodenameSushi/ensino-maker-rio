@@ -82,7 +82,7 @@ export const ContainerMainEvents = styled.main`
     -webkit-backdrop-filter: blur(5.2px);
     border: 1px solid rgba(26, 83, 92, 0.1);
     color: white;
-    width: 220px;
+    width: 200px;
     height: 40px;
     margin-top: 12px;
     font-family: 'Source Sans Pro', sans;

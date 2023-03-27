@@ -43,6 +43,7 @@ const Events = () => {
             </div>
         <h1 className='event-name'>Brazil Coders</h1>
         <p>Local: Pier Mauá</p>
+        
         <button>Inscrever-se</button>
 
         </div>
