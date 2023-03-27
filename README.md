@@ -22,6 +22,13 @@ Acesse o projeto no link abaixo:
 - Aba Explorar com as principais notícias
 - Perfil dos Tutores da plataforma
 
+## Desenvolvimento
+
+- React.js
+- Javascript
+- HTML
+- CSS
+
 ## Screenshots
 
 ![App Screenshot](https://i.imgur.com/WPmkQ4J.png)
