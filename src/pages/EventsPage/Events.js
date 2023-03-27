@@ -16,6 +16,7 @@ const Events = () => {
             </div>
         <h1 className='event-name'>Oficina de Robótica </h1>
         <p>Local: Universidade Figma - Méier</p>
+
         <button>Inscrever-se</button>
 
         </div>
@@ -30,6 +31,7 @@ const Events = () => {
             </div>
         <h1 className='event-name'>Rio Web Summit</h1>
         <p>Local: Não Confirmado</p>
+
         <button>Inscrever-se</button>
 
         </div>

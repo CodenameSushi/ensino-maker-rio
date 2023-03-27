@@ -23,6 +23,7 @@ export const ContainerMainEvents = styled.main`
       display: flex;
       flex-direction: column;
       align-items: center;
+      justify-content: space-between;
       padding: 12px;
       gap: 12px;
 
@@ -46,7 +47,7 @@ export const ContainerMainEvents = styled.main`
       }
 
       @media (min-width: 800px) {
-        width: 600px;
+        width: 800px;
         flex-direction: row;
         
       }
@@ -74,6 +75,7 @@ export const ContainerMainEvents = styled.main`
         font-size: 1.25rem;
       }
 
+
       button {
     background: rgba(26, 83, 92, 0.8);
     border-radius: 4px;
@@ -88,7 +90,12 @@ export const ContainerMainEvents = styled.main`
     font-family: 'Source Sans Pro', sans;
     font-weight: bold;
 
+    justify-self: center;
+    align-self: center;
+
     cursor: pointer;
   }
+
+      
     }
   `
