@@ -9,10 +9,12 @@ export const ContainerMain = styled.main`
   text-align: center;
 
   padding-top: 120px;
+  padding-bottom: 120px;
 
   gap: 32px;
 
-  background-image: linear-gradient(45deg, #8baaaa 0%, #ae8b9c 100%);
+  background-image: linear-gradient(45deg, #8baaaa 0%, #ffffff 100%);
+
 
   h1 {
     font-size: 1rem;
@@ -35,11 +37,11 @@ export const ContainerMain = styled.main`
     align-items: center;
     gap: 24px;
     @media (min-width: 800px) {
-        flex-direction: row;
-      }
+      flex-direction: row;
+    }
 
     p {
-      font-family: "Roboto Mono", monospace;
+      font-family: 'Source Sans Pro', sans-serif;
       font-size: 0.75rem;
       padding: 12px;
       @media (min-width: 800px) {
@@ -47,9 +49,8 @@ export const ContainerMain = styled.main`
         padding: 32px;
         line-height: 1.3rem;
       }
-  
     }
-  } 
+  }
 
   iframe {
     width: 560px;
@@ -59,5 +60,42 @@ export const ContainerMain = styled.main`
       width: 350px;
       height: 195px;
     }
+  }
+
+  .info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  ul{
+    text-align: center;
+  }
+ 
+
+  li{
+    a{
+        text-decoration: underline;
+        color: black;
+    }
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: start;
+  }
+  button {
+    background: rgba(26, 83, 92, 0.8);
+    border-radius: 4px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(5.2px);
+    -webkit-backdrop-filter: blur(5.2px);
+    border: 1px solid rgba(26, 83, 92, 0.1);
+    color: white;
+    width: 220px;
+    height: 40px;
+    margin-top: 12px;
+    font-family: 'Source Sans Pro', sans;
+    font-weight: bold;
+
+    cursor: pointer;
   }
 `;

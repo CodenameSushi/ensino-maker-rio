@@ -1,24 +1,31 @@
-import React from 'react'
-import CourseCard from '../../components/CourseCard/CourseCard'
-import Footer from '../../components/Footer/Footer'
-import Header from '../../components/Header/Header'
-import { ContainerMain } from './MyCourses.styled'
-
+import React from "react";
+import CourseCard from "../../components/CourseCard/CourseCard";
+import Footer from "../../components/Footer/Footer";
+import Header from "../../components/Header/Header";
+import { ContainerMainCourses } from "./MyCourses.styled";
+import courses from '../../assets/courses.json'
 
 const MyCourses = () => {
+
+  
   return (
-    <ContainerMain>
-        <Header/>
-        <h1>Meus Cursos</h1>
+    <ContainerMainCourses>
+      
+      
+      <h1>Meus Cursos</h1>
 
-        <div className='cards'>
-            <CourseCard/>
-            <CourseCard/>
+      <div className="cards">
+        {courses.map((course) => (
+          <CourseCard
+          course={course}
+          key={course.id} />
+        ))}
 
-        </div>
-        <Footer/>
-    </ContainerMain>
-  )
-}
+      </div>
+      <Header />
+      <Footer />
+    </ContainerMainCourses>
+  );
+};
 
-export default MyCourses
+export default MyCourses;

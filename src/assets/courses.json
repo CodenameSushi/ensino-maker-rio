@@ -1,0 +1,40 @@
+[
+    {
+        "id": "001",
+        "title": "Introdução ao Javascript",
+        "titleSmall": "JavaScript Intro",
+        "type": "Iniciante",
+        "lessons": 12,
+        "imageUrl": "https://cdn-icons-png.flaticon.com/512/5968/5968292.png",
+        "imageAlt": "Javascript",
+        "description": "JavaScript é uma linguagem de programação que permite a você implementar itens complexos em páginas web — toda vez que uma página da web faz mais do que simplesmente mostrar a você informação estática — mostrando conteúdo que se atualiza em um intervalo de tempo, mapas interativos ou gráficos 2D/3D animados, etc. — você pode apostar que o JavaScript provavelmente está envolvido. É a terceira camada do bolo das tecnologias padrões da web, duas das quais (HTML e CSS) nós falamos com muito mais detalhes em outras partes da Área de Aprendizado.",
+        "videoUrl": "https://www.youtube.com/embed/Ptbk2af68e8"
+    },
+    {
+        "id": "002",
+        "title": "Como Criar um Óculos VR",
+        "titleSmall": "Como Criar um Óculos VR",
+        "type": "Iniciante",
+        "lessons": 1,
+        "imageUrl": "https://cdn-icons-png.flaticon.com/512/2204/2204981.png",
+        "imageAlt": "VR",
+        "description": "Capacitor é um componente eletrônico que armazena carga elétrica ao ser ligado a uma fonte de alimentação. O capacitor possui dois terminais, podendo ser polarizado ou não polarizado, e dentro do capacitor esses terminais são conectados a duas placas metálicas, normalmente de alumínio, que estão separadas por uma substância não condutiva ou um dielétrico. Para uma melhor eficiência dos capacitores e também para utilização em casos mais especializados esses dielétricos podem ser de diversos materiais diferentes como por exemplo cerâmica, teflon, mica, porcelana, vidro, celulose, milar, óleo e até ar. Portanto o dielétrico é um dos indicativos de qual a melhor aplicação para o capacitor.",
+        "videoUrl": "https://www.youtube.com/embed/aGrHfCzW9-o"
+    },
+    {
+        "id": "003",
+        "title": "Como Montar o Seu Arduino na Protoboard",
+        "titleSmall": "Arduino na Protoboard",
+        "type": "Iniciante",
+        "lessons": 1,
+        "imageUrl": "https://cdn-icons-png.flaticon.com/512/3273/3273748.png",
+        "imageAlt": "Protoboard",
+        "description": "Então finalmente vamos nos beneficiar do fato do Arduino ser um hardware livre e fazer uma cópia dele para rodar os nossos projetos. A grande vantagem de construir o seu próprio Arduino é a economia, sai muito mais barato que comprar um pronto e é muito fácil de montar. Então vamos lá!",
+        "videoUrl": "https://www.youtube.com/embed/Iyddq10RKHM"
+
+    }
+
+    
+]
+
+

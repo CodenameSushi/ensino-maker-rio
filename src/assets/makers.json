@@ -1,0 +1,18 @@
+[
+    {   "id": "001",
+        "titleSmall": "Óculos VR",
+        "imageUrl": "https://i.imgur.com/OuVYTTM.png",
+        "rating": 5.0
+    },
+
+    {   "id": "002",
+        "titleSmall": "Carro Ultra Sônico",
+        "imageUrl": "https://i.imgur.com/0EzdfR1.png",
+        "rating": 4.5
+    },
+    {   "id": "003",
+        "titleSmall": "Máscara 3D",
+        "imageUrl": "https://i.imgur.com/oH3fhQu.png",
+        "rating": 4.8
+    }
+]

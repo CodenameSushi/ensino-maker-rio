@@ -1,0 +1,19 @@
+[
+    {
+        "titleSmall": "Nikola Tesla",
+        "imageUrl": "https://i.imgur.com/yEh9aBb.png",
+        "rating": 5.0 
+    },
+    {
+        "titleSmall": "Asimov",
+        "imageUrl": "https://i.imgur.com/uJKnLgy.png",
+        "rating": 4.9
+    },
+    {
+        "titleSmall": "Davinc",
+        "imageUrl": "https://i.imgur.com/jX612Gv.png",
+        "rating": 4.7
+    }
+]
+
+    

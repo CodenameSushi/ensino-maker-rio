@@ -1,23 +1,35 @@
-import React from 'react'
-import { CardContainer } from './CourseCard.styled'
-import Javascript from '../../assets/cards-media/js.png'
-import { goToJavascript } from '../../routes/coordinator'
-import { useNavigate } from 'react-router-dom'
+import React from "react";
+import { CardContainer } from "./CourseCard.styled";
+import { goToJavascript, goToVr } from "../../routes/coordinator";
+import { useNavigate } from "react-router-dom";
 
-const CourseCard = () => {
-    const navigate = useNavigate()
+const CourseCard = (props) => {
+  const {course} = props
+  const navigate = useNavigate();
+
+  const findNavigation = (courseId) => {
+    if(courseId === '001'){
+      return goToJavascript(navigate)
+    }
+    if(courseId === '002'){
+      return goToVr(navigate)
+    }
+  
+    }
+
   return (
     <div>
-    <CardContainer onClick={() => goToJavascript(navigate)}>
-        <img src={Javascript}/>
-        <div>
-            <h1>Introdução Javascript</h1>
-            <p>Conheça o curso Introdução ao JavaScript e aperfeiçoe os seus conhecimentos em Programação.</p>
+      <CardContainer onClick={() => findNavigation(course.id)}>
+        <img src={course.imageUrl} />
+        <div className="card-content">
+          <h1>{course.title}</h1>
+          <div className="info"> 
+          <span>{course.type}</span>
+          </div>
         </div>
-        </CardContainer>
-        
-        </div>
-  )
-}
+      </CardContainer>
+    </div>
+  );
+};
 
-export default CourseCard
+export default CourseCard;

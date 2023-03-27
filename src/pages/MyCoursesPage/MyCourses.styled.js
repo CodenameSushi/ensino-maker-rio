@@ -1,38 +1,34 @@
 import styled from "styled-components";
 
-export const ContainerMain = styled.main`
-min-height: 100vh;
+export const ContainerMainCourses = styled.main`
+  min-height: 100vh;
 
-display: flex;
-flex-direction: column;
-align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
-padding-top: 120px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 
-gap: 32px;
+  gap: 32px;
 
-background-image: linear-gradient(45deg, #8baaaa 0%, #ae8b9c 100%);
+  background-color: #d9d9dd;
 
 
+  h1 {
+    font-family: "Roboto Mono", monospace;
+  }
 
-h1{
-    font-family: 'Roboto Mono', monospace;
-}
-
-.cards{
+  .cards {
     display: flex;
     flex-direction: column;
     gap: 32px;
-    
+
     @media (min-width: 800px) {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-start;
-    
-}
-
-}
-
-
-`
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: flex-start;
+    }
+  }
+`;
