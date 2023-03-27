@@ -27,7 +27,7 @@ const navigate = useNavigate();
     <SpotlightCardContainer onClick={() => {findNavigation(item.titleSmall)}}>
         <img src={item.imageUrl} alt="img"/>
         <div><p>{item.titleSmall}</p>
-        <p>{item.rating} {item.rating && <img className='rate-icon' src={Star} alt="start"/>}</p></div>
+        <p>{item.rating} {item.rating && <img className='rate-icon' src={Star} alt="star"/>}</p></div>
     </SpotlightCardContainer>
   )
 }
